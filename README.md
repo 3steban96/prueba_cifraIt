@@ -166,8 +166,6 @@ Para generar el build de producción:
 npm run build
 ```
 
-Los archivos generados estarán en la carpeta `dist/` y pueden ser servidos por cualquier servidor web estático.
-
 ## 📝 Notas de Desarrollo
 
 - El proyecto utiliza Context API para el manejo del estado de autenticación
