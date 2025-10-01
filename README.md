@@ -140,15 +140,15 @@ El frontend espera que el backend esté disponible en `http://localhost:8080` co
 - `POST /login` - Iniciar sesión
 
 ### Solicitudes
-- `POST /solicitudes` - Crear solicitud
-- `GET /solicitudes/cliente/:clienteId` - Obtener solicitudes de un cliente
-- `GET /solicitudes/soporte/:soporteId` - Obtener solicitudes asignadas a soporte
-- `GET /solicitudes` - Obtener todas las solicitudes (con filtros opcionales)
-- `PUT /solicitudes/:id` - Actualizar solicitud
+- `POST /requests` - Crear solicitud
+- `GET /requests/customer/:customerId` - Obtener solicitudes de un cliente
+- `GET /requests/support/:supportId` - Obtener solicitudes asignadas a soporte
+- `GET /requests` - Obtener todas las solicitudes (con filtros opcionales)
+- `PUT /requests/:id` - Actualizar solicitud
 
 ### Administración
-- `GET /estadisticas` - Obtener estadísticas del sistema
-- `GET /clientes` - Obtener lista de clientes
+- `GET /statistics` - Obtener estadísticas del sistema
+- `GET /customers` - Obtener lista de clientes
 
 ## 🎨 Personalización
 
